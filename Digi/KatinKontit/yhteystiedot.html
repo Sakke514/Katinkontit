@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Title" content="KatinKontit - Yhteystiedot">
+  <meta name="description" content="Ota yhteyttä KatinKontit-kissahotelliin! Katso yhteystiedot, aukioloajat ja sijainti Raaseporissa.">
+  <title>KatinKontit - Yhteystiedot</title>
+  <link rel="stylesheet" href="tyyli.css">
+  <style>
+    body {
+      background-color: rgb(252, 243, 229);
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    header, nav, footer {
+      background-color: rgb(200, 170, 120);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: rgb(224, 125, 50);
+      text-decoration: none;
+      font-weight: bold;
+
+      background-color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 2px solid rgb(165, 90, 42);
+  transition: background-color 0.3s, color 0.3s;
+
+
+    }
+
+    nav a:hover {
+  background-color: rgb(224, 125, 50);
+  color: white;
+}
+
+    
+
+    h1, h2 {
+      color: rgb(165, 90, 42);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .content {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .contact-info {
+      display: inline-block;
+      text-align: left;
+      padding: 20px;
+      border: 3px solid rgb(200, 170, 120);
+      background-color: white;
+      border-radius: 15px;
+    }
+
+    .contact-info p, .contact-info a {
+      color: rgb(51, 51, 51);
+      font-family: sans-serif;
+      margin: 10px 0;
+    }
+
+    footer p {
+      margin: 0;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="hotellilogo1.jpg" alt="Hotellin logo" class="logo">
+      <h1>KatinKontit</h1>
+      </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="hinnat.html">Hinnat</a></li>
+        <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h2>Yhteystiedot</h2>
+    <div class="contact-info">
+      <p><strong>Osoite:</strong> Isotie 14, Raasepori</p>
+      <p><strong>Puhelin:</strong> 012 345 6789</p>
+      <p><strong>Aukioloajat:</strong> Ma–Pe 9–17</p>
+      <p><strong>Instagram:</strong> Katinkontit</p>
+    </div>
+  </div>
+
+  <h2 class="center-text">Kuvia hotellista!</h2>
+
+  <div class="kuva-container">
+    <img src="spa-tilat.jpg" alt="spa tila" class="pieni-kuva">
+    <img src="hotelli.jpg" alt="talo" class="pieni-kuva">
+    <img src="Huoneet.jpg" alt="huone" class="pieni-kuva">
+  </div> 
+  
+  
+
+
+  <footer>
+    <p>Raasepori<br>Isotie 14</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Title" content="KatinKontit - Hinnat">
+  <meta name="description" content="Tutustu KatinKontit-kissahotellin palveluhintoihin. Katso majoitushinnat ja lisäpalvelut, kuten trimmaus ja kynsien hoito.">
+  <title>KatinKontit - Hinnat</title>
+  <link rel="stylesheet" href="tyyli.css">
+  <style>
+    body {
+      background-color: rgb(252, 243, 229);
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    header, nav, footer {
+      background-color: rgb(200, 170, 120);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: rgb(224, 125, 50);
+      text-decoration: none;
+      font-weight: bold;
+
+      background-color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 2px solid rgb(165, 90, 42);
+  transition: background-color 0.3s, color 0.3s;
+
+
+    }
+
+    nav a:hover {
+  background-color: rgb(224, 125, 50);
+  color: white;
+}
+
+    h1, h2, h3 {
+      color: rgb(165, 90, 42);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+    }
+
+    .price-list {
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .price-list ul {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      background-color: white;
+      border: 3px solid rgb(200, 170, 120);
+      border-radius: 15px;
+      padding: 20px 30px;
+      color: rgb(51, 51, 51);
+    }
+
+    .price-list li {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+
+    footer p {
+      margin: 0;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="hotellilogo1.jpg" alt="Hotellin logo" class="logo">
+      <h1>KatinKontit</h1>
+      </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="hinnat.html">Hinnat</a></li>
+        <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>HINNASTO PALVELUILLE</h2>
+    <div class="price-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Palvelu</th>
+            <th>Hinta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Huone / Viikko</td><td>25 €</td></tr>
+          <tr><td>Huone / 2 Viikkoa</td><td>40 €</td></tr>
+          <tr><td>Huone / 3 Viikkoa</td><td>50 €</td></tr>
+          <tr><td>Huone / Lisäviikot</td><td>+15 €</td></tr>
+          <tr><td>Kynsien viilaus</td><td>70 €</td></tr>
+          <tr><td>Trimmaus</td><td>50 €</td></tr>
+          <tr><td>Spa</td><td>15 €</td></tr>
+          <tr><td>Herkkuillallinen</td><td>5 €</td></tr>
+          <tr><td>Hieronta</td><td>10 €</td></tr>
+          <tr><td>Ylimääräinen Aamiainen</td><td>8 €</td></tr>
+          <tr><td>Kissanminttu aromaterapia</td><td>10 €</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  
+
+  <footer>
+    <p>Raasepori<br>Isotie 14</p>
+  </footer>
+</body>
+</html>

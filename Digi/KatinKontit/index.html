@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Title" content="KatinKontit - Kissahotelli">
+  <meta name="description" content="KatinKontit on kodikas kissahotelli Raaseporissa. Tarjoamme turvallista ja viihtyisää hoitoa kissoille loman tai matkan ajaksi.">
+  <title>KatinKontit - Kissahotelli</title>
+  <link rel="stylesheet" href="tyyli.css">
+  <style>
+    body {
+      background-color: rgb(252, 243, 229);
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+
+
+
+    header, nav, footer {
+      background-color: rgb(200, 170, 120);
+      padding: 10px;
+      text-align: center;
+    }
+
+
+
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: rgb(224, 125, 50);
+      text-decoration: none;
+      font-weight: bold;
+
+      background-color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 2px solid rgb(165, 90, 42);
+  transition: background-color 0.3s, color 0.3s;
+
+
+    }
+
+    nav a:hover {
+  background-color: rgb(224, 125, 50);
+  color: white;
+}
+
+    
+
+    h1, h2, h3 {
+      color: rgb(165, 90, 42);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .flex_container {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      padding: 20px;
+    }
+
+    .flex_container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .section {
+      border: 3px solid rgb(200, 170, 120);
+      padding: 20px;
+      border-radius: 15px;
+      background-color: white;
+    }
+
+    footer p {
+      margin: 0;
+      color: black;
+    }
+
+    .aligned-list {
+      list-style-position: inside;
+      text-align: center;
+      padding-left: 0;
+    }
+
+    .aligned-list li {
+      text-align: left;
+      margin: auto;
+      width: fit-content;
+    }
+
+    .center-text {
+      text-align: center;
+    }
+
+    @media screen and (min-width: 768px) {
+      .flex_container {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+    <img src="hotellilogo1.jpg" alt="Hotellin logo" class="logo">
+    <h1>KatinKontit</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="hinnat.html">Hinnat</a></li>
+        <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="flex_container">
+    <div class="section">
+      <h2>Tietoa hotellista</h2>
+      <p>
+        Tervetuloa Hotelli Katinkontteihin, lemmikkisi uusi turvapaikka.
+        Meillä, Snappertunassa sijaitsevassa hotellissa, olemme luoneet täydellisen ympäristön kissoille, jotka kaipaavat rauhaa ja huolenpitoa.
+      </p>
+    </div>
+    <div class="section">
+      <h2>Palvelut</h2>
+      <p>
+        Tarjoamme kattavan valikoiman palveluita kissoille, mukaan lukien tilavat huoneet, kiipeilypuut, pehmeät vuoteet ja virikkeitä.
+      </p>
+    </div>
+  </div>
+
+  <h2 class="center-text">Tyytyväisiä asiakkaita!</h2>
+
+  <div class="kuva-container">
+    <img src="kissa.jpg" alt="Kissa nukkuu" class="pieni-kuva">
+    <img src="kisuli.jpg" alt="Kisuli murjottaa" class="pieni-kuva">
+    <img src="katti.jpg" alt="Katti katsoo" class="pieni-kuva">
+  </div>
+  
+
+  <footer>
+    <p>Raasepori<br>Isotie 14</p>
+  </footer>
+</body>
+</html>
